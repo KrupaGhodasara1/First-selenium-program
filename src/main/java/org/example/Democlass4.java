@@ -26,6 +26,7 @@ public class Democlass4 {
         //click on practise form
         driver.findElement(By.xpath("//span[text()='Practice Form']")).click();
 
+        
         //click and type on first field
         driver.findElement(By.id("firstName")).sendKeys("abcd");
         driver.findElement(By.id("lastName")).sendKeys("EFGHU");

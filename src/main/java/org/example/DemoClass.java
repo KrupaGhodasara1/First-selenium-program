@@ -13,7 +13,7 @@ public class DemoClass {
 
         WebDriver driver = new ChromeDriver();
 
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
 
         //Launch amazonweb page
         driver.navigate().to("https://www.saucedemo.com/v1/");
